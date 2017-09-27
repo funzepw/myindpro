@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 6th Edition  v 1.16
+     
+
+      Individual Project Template
+  
+      Author: Philip Winter
+      Date:   9-11-17
+
+      Filename: page 2.html changed to carpet.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0">
+   <title>Individual Student Project Template 1</title>
+   <link rel="stylesheet" href="styles.css" />
+     <!-- Changed font from Indie+Flower to Architects+Daughter  -->
+   <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet" type="text/css">
+  
+</head>
+
+<body>
+   <div id="container">
+      <header>
+         <h1>
+            <img src="https://cdn.glitch.com/63c933d7-a01c-4d55-b9ae-6cc7af6f639c%2FCCS_-_Logo_1_220x175.jpg?1505863807490" alt="INFO 301 - Student Project" title="" />
+         </h1>
+      </header>
+
+      <nav>
+         <ul>
+           <!-- rename page1 to home page -->
+            <li><a href="index.html">Home</a></li>
+           <!-- rename page2 to carpet -->
+            <li id="currentpage"><a href="#">Carpet</a></li>
+           <!-- rename page3 to Hardwood -->
+            <li id="hardwood"><a href="/hardwood.html">Hardwood</a></li>
+           <!-- rename page4 to Laminate/Vinyl -->
+            <li id="laminate"><a href="/laminate.html">Laminate/Vinyl</a></li>       
+         </ul>
+      </nav>
+        
+      <article>
+         <h2>Estimated Cost of Carpet For a 12 x 12 Room</h2>
+        <!-- changed Paragraph 1 to a graphic -->
+
+         <p>
+            <!--- <img src="https://cdn.glitch.com/63c933d7-a01c-4d55-b9ae-6cc7af6f639c%2Fcarpet.jpg?1505182833076" alt="INFO 301 - Student Project" title="" />
+          -->
+           Since you can expect to have 10% waste during installation of carpet, 159 square feet of carpet would be needed. 
+           Installation charges are not included. Please contact us for a free quote on carpet, pad and installation. Prices
+           are subject to change.
+        </p>
+        <form>
+         <input type="checkbox" id="item1" value="378.42" /> <!-- Value is equal to price per sqaure feet * Room Square feet + 10%  
+                                                                  $2.38 * 159 = 378.42-->
+         <label for="item1">Basic Carpet ($2.38 per square foot)</label>
+         
+         <input type="checkbox" id="item2" value="473.82" /><!-- Value is equal to price per sqaure feet * Room Square feet + 10%  
+                                                                  $2.98 * 159 = 473.82-->
+         <label for="item2">....................................................................................................................................................................
+                            Deluxe Carpet  ($2.98 per square foot)</label>
+          
+         <input type="checkbox" id="item3" value="537.42" /><!-- Value is equal to price per sqaure feet * Room Square feet + 10%  
+                                                                  $3.38 * 159 = 537.42-->
+         <label for="item3">...................................................................................................................................................................
+                            Premium Carpet ($3.38 per square foot)</label>
+          
+         <input type="checkbox" id="item4" value="103.35" /><!-- Value is equal to price per sqaure feet * Room Square feet + 10%  
+                                                                  $0.65 * 159 = 103.35-->
+         <label for="item4">...................................................................................................................................................................
+                            Basic Carpet Pad ($.65 per square foot)</label>
+          
+         <input type="checkbox" id="item5" value="141.51" /><!-- Value is equal to price per sqaure feet * Room Square feet + 10%  
+                                                                  $0.89 * 159 = 141.51-->
+         <label for="item5">...................................................................................................................................................................
+                            Deluxe Carpet Pad ($0.89 per square foot)</label>
+          
+         <input type="checkbox" id="item6" value="165.36" /><!-- Value is equal to price per sqaure feet * Room Square feet + 10%  
+                                                                  $1.04 * 159 = 165.36-->
+         <label for="item6">...................................................................................................................................................................
+                            Premium Carpet Pad ($1.04 per square foot)</label>
+          
+         <input type="button" id="submit" value="Submit" />
+      
+        </form>
+         <p></p>
+      </article>
+    
+      <footer>
+         <p>Coastal Custom Services LLC &bull; Laurel, Delaware</p>
+      </footer>
+   </div>
+  <script src="script.js"></script>
+</body>
+</html>
